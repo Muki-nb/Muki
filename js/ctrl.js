@@ -32,7 +32,7 @@ function Start2048(){
         map.Count[i] = 0;
         }
         Starting = false;
-        Score.Div = "<h3>ÄãµÄ·ÖÊı£º</h3>" + Score.Num;
+        Score.Div = "<h3>Ã„Ã£ÂµÃ„Â·Ã–ÃŠÃ½Â£Âº</h3>" + Score.Num;
         document.getElementById("Score").innerHTML = Score.Div;
     }
     
@@ -54,6 +54,7 @@ function Move(To){
     }
     
 }
+
 
 var Speed = 0;
 var Second = 0;
@@ -127,7 +128,7 @@ function IsPC() {
     return flag;
 }
 
-//¿ªĞéÄâ¼ü
+//Â¿ÂªÃÃ©Ã„Ã¢Â¼Ã¼
 var KeyBoard;
 if(IsPC() == false){
     KeyBoard = document.createElement("div");
