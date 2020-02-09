@@ -128,7 +128,7 @@ function IsPC() {
     return flag;
 }
 
-//¿ªÐéÄâ¼ü
+//虚拟键
 var KeyBoard;
 if(IsPC() == false){
     KeyBoard = document.createElement("div");
