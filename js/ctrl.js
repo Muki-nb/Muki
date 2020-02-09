@@ -32,7 +32,7 @@ function Start2048(){
         map.Count[i] = 0;
         }
         Starting = false;
-        Score.Div = "<h3>ÄãµÄ·ÖÊý£º</h3>" + Score.Num;
+        Score.Div = "<h3>你的分数：</h3>" + Score.Num;
         document.getElementById("Score").innerHTML = Score.Div;
     }
     
